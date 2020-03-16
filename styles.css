@@ -1,0 +1,219 @@
+/* Master style */
+body {
+    margin: 0px;
+    font-family: "Lato", sans-serif;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* Nav styles */
+.wrapper-nav {
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-side {
+    display:flex;
+}
+
+.wrapper-nav > .left-side >div {
+    margin-right:40px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.wrapper-link-nav {
+    height:25px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.wrapper-link-nav a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.active-link-nav {
+    border-bottom: 1px solid black;
+}
+
+.active-link-nav a{
+    color:black !important;
+}
+
+.wrapper-link-nav:hover {
+    border-bottom: 1px solid black;
+}
+
+.wrapper-link-nav a:hover{
+    color: black;
+}
+
+
+
+/* My introduction */
+
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mypicture-wrapper {
+    background-image: url("images/cow-nature.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    font-size: 2em;
+    text-decoration-style: double;
+    color: whitesmoke;
+    text-align: left;
+}
+
+
+/* .mypicture-background{ 
+    width: 100%;
+    height:350px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mygreeting-wrapper {
+    position: absolute;
+    top: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;.
+    height: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+
+
+
+.myresume-wrapper {
+    padding-left: 30px;
+    color: seagreen;
+
+}
+
+/*  Animal styles */
+.wrapper-content {
+    display:grid;
+    grid-template-columns: 85% 15%;
+    grid-column-gap: 20px;
+    
+    
+}
+
+.wrapper-twelve-animals {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.wrapper-each-animal {
+    position: relative;
+}
+
+
+
+#tiger {
+    background-image: url("images/tiger-nature.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    text-decoration-style: double;
+    color: whitesmoke;
+    text-align: top;
+}
+
+#cow {
+    background-image: url("images/cow-nature.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    text-decoration-style: double;
+    color: whitesmoke;
+    text-align: top;
+}
+
+#rat {
+    background-image: url("images/rat-nature.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 100px;
+    width: 100%;
+    text-decoration-style: double;
+    color: whitesmoke;
+    text-align: top;
+}
+
+#zodiac {
+    
+    height: 100px;
+    width: 100%;
+    
+}
+
+.each-animal-background {
+    height:350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper-animal-text {
+    position: absolute;
+    top: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    height: 100%;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+
+
+.wrapper-logo>h3>img {
+    float: left;
+    width:100px;
+    height: 70px;
+    size: scale;
+    margin-right: 20px;
+}
+
+.wrapper-logo>h3 {
+    transition: 2s;
+    color: transparent;
+    font-weight: 600;
+}
+
+.wrapper-animal-text:hover .wrapper-logo>h3 {
+    font-weight: 600;
+    color: gold
+}
+
+.background-dark {
+   transition: 1s;
+   filter: brightness(20%) 
+}
+
