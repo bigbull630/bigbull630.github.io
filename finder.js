@@ -38,9 +38,12 @@ else if (x === "rooster") {
  else if (x === "dog") {
      document.getElementById("anipic").src='images/dog-nature.jpg';
 }
-else  {
+else if (x === "pig") {
     document.getElementById("anipic").src='images/pig-nature.jpg';
  }
+ else {
+     document.getElementById('anipic").innerHTML = "select a year";
+                             }
  
 
 }
