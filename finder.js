@@ -42,7 +42,7 @@ else if (x === "pig") {
     document.getElementById("anipic").src='images/pig-nature.jpg';
  }
  else {
-     document.getElementById("done").innerHTML = "select a year";
+     document.getElementById("anipic").src='images/home.jfif';
                              }
  
 
